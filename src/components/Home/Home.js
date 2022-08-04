@@ -1,132 +1,62 @@
 import React from "react";
-import './indexStyle.css';
-import Card from '../UI/Card';
-import classes from './Home.module.css';
+import "./indexStyle.css";
+import Card from "../UI/Card";
+import classes from "./Home.module.css";
+import "./style.css";
 const Home = (props) => {
   return (
     <div>
-     <br></br> <br></br><br></br><br></br><br></br>
-      <h1 className="text-center">Welcome to LEarn o Grow!</h1>
+      <br></br> <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <h1 className="text-center welcom">Welcome to LEarn o Grow!</h1>
+      <div className="row">
+        <div className="leftcolumn">
+          <div className="Mycard">
+            <h2>React Js</h2>
+            <h5> Dec 7, 2017</h5>
+            <img src="./react.png" alt="IMg Not Found"></img>
 
-      <section class="section">
-                <div class="box-main">
-                    <div class="firstHalf">
-                        <h1 class="text-big">
-                            7 Best Tips To Speed Up Your 
-                            Job Search in 2022
-                        </h1>
-                        <p class="text-small">
-                            Hunting down a relevant job requires 
-                            proper techniques for showcasing your 
-                            potential to the employer. But with 
-                            the advent of COVID-19, it has become 
-                            a bit challenging and competitive to 
-                            reach out for your dream job. Many 
-                            individuals have lost their jobs 
-                            during these times, and on the other 
-                            hand, freshers are facing difficulties
-                            while applying for a new job. But 
-                            there is no need for panic, you can 
-                            change your ways and streamline things 
-                            in a way that you get a proper result.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="box-main">
-                    <div class="secondHalf">
-                        <h1 class="text-big" id="program">
-                            JavaScript Tutorial
-                        </h1>
-                        <p class="text-small">
-                            JavaScript is the world most popular 
-                            lightweight, interpreted compiled 
-                            programming language. It is also 
-                            known as scripting  language for
-                            web pages. It is well-known for 
-                            the development of web page many 
-                            non-browser environments also use
-                            it. JavaScript can be used for 
-                            Client-side developments as well 
-                            as Server-side developments.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="box-main">
-                    <div class="secondHalf">
-                        <h1 class="text-big" id="program">
-                            Java Programming Language
-                        </h1>
-                        <p class="text-small">
-                            When compared with C++, Java codes 
-                            are generally more maintainable 
-                            because Java does not allow many 
-                            things which may lead to 
-                            bad/inefficient programming if used 
-                            incorrectly. For example, 
-                            non-primitives are always references
-                            in Java. So we cannot pass large
-                            objects (like we can do in C++) to 
-                            functions, we always pass references 
-                            in Java. One more example, since there
-                            are no pointers, bad memory access 
-                            is also not possible. When compared 
-                            with Python, Java kind of fits between
-                            C++ and Python. The programs are written
-                            in Java typically run faster than 
-                            corresponding Python programs and slower 
-                            than C++. Like C++, Java does static 
-                            type checking, but Python does not.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="box-main">
-                    <div class="secondHalf">
-                        <h1 class="text-big" id="program">
-                            What is Machine Learning?
-                        </h1>
-                        <p class="text-small">
-                            Machine Learning is the field of study 
-                            that gives computers the capability to 
-                            learn without being explicitly 
-                            programmed. ML is one of the most exciting
-                            technologies that one would have ever 
-                            come across. As it is evident from the 
-                            name, it gives the computer that makes 
-                            it more similar to humans: The ability 
-                            to learn. Machine learning is actively 
-                            being used today, perhaps in many more 
-                            places than one would expect.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="section">
-                <div class="box-main">
-                    <div class="secondHalf">
-                        <h1 class="text-big" id="program">
-                            What is Robotics?
-                        </h1>
-                        <p class="text-small">
-                        Robotics is a branch of engineering that involves the conception, design, manufacture and operation of robots. The objective of the robotics field is to create intelligent machines that can assist humans in a variety of ways.
+            <p>
+              React is a free and open-source front-end JavaScript library for
+              building user interfaces based on UI components
+            </p>
+          </div>
+          <div className="Mycard">
+            <h2>Vue Js</h2>
+            <h5> Jan 9, 2016</h5>
+            <img src="./vue.png" alt="IMg Not Found"></img>
 
-Robotics can take on a number of forms. A robot may resemble a human, or it may be in the form of a robotic application, such as robotic process automation (RPA), which simulates how humans engage with software to perform repetitive, rules-based tasks.
-
-While the field of robotics and exploration of the potential uses and functionality of robots have grown substantially in the 20th century, the idea is certainly not a new one.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <footer className="footer">
-                <p className="text-footer">
-                    Copyright ©-All rights are reserved
-                </p>
-            </footer>
+            <p>
+              Vue.js is an open-source model–view–viewmodel front end JavaScript
+              framework for building user interfaces and single-page
+              applications
+            </p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+    <div class="Mycard">
+      <h2>About Me</h2>
+      <img src="./me.jpg" className="profile" alt="IMg Not Found" width="190px"></img>
+      <h3>Kashif Ullah</h3>
+      <p>React js, Frontend Developer |Influencer, Learner</p>
+    </div>
+    <div class="Mycard">
+      <h3>Popular Courses</h3>
+      <div class="fakeimg">Image</div><br></br>
+      <div class="fakeimg">Image</div><br></br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+      </div>
+      <footer className="footer">
+        <p className="text-footer">Copyright ©-All rights are reserved</p>
+      </footer>
     </div>
   );
 };

@@ -84,14 +84,18 @@ const Login = (props) => {
   const validatePasswordHandler = () => {
     dispatchPassword({type: 'INPUT_BLUR'});
   };
-
+  const auth =(name, password)=>{
+      
+  }
   const submitHandler = (event) => {
+    
     event.preventDefault();
     props.onLogin(emailState.value, passwordState.value);
   };
 
   return (
-    <Card className={classes.login}>
+    <Card className={classes.login}> 
+    <br></br> <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
       <form onSubmit={submitHandler}>
         <div
           className={`${classes.control} ${
@@ -123,7 +127,7 @@ const Login = (props) => {
         </div>
         <div className={classes.actions}>
           <Button type="submit" className={classes.btn} disabled={!formIsValid}>
-            Login
+            Sign Up
           </Button>
         </div>
       </form>
